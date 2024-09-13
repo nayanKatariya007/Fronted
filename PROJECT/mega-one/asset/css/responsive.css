@@ -1,0 +1,19 @@
+/* responsive media queries */
+
+/* max-width */
+/* min-width */
+
+
+/* 576 max-width */
+/* 768 max-width */
+
+@media (max-width:991px){
+    .menu{
+        display: none;
+    }
+}
+@media (max-width:576px){
+    .container{
+        display: none;
+    }
+}
