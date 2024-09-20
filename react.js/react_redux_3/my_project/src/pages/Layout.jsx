@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Home from './Home'
 import Shop from './Shop'
 import Whishlist from './Whishlist'
@@ -7,6 +6,8 @@ import AboutUs from './AboutUs'
 import Cart from './Cart'
 import Product from './Product'
 import Page404 from './Error404Page'
+import Login from './login'
+import Profile from './profile'
 import { Navbar } from '../components/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -22,6 +23,8 @@ const Layout = () => {
                 <Route path='/whishlist' element={<Whishlist/>}></Route>
                 <Route path='/cart' element={<Cart/>}></Route>
                 <Route path='/product' element={<Product/>}></Route>
+                <Route path='/login' element={<Login/>}></Route>
+                <Route path='/profile' element={<Profile/>}></Route>
                 <Route path='/*' element={<Page404/>}></Route>
             </Routes>
         </BrowserRouter>
